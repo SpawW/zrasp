@@ -1,0 +1,12 @@
+{
+  "Gemfile": "dbc1a15e3a264c03878028240cfc5d89",
+  "README.md": "d3f0847f6cae7b3e313905246a4e5510",
+  "Rakefile": "20b80e526e351a74df2001f504e756d2",
+  "manifests/config.pp": "43a0d346714a2c02159c3ef6ac9bc027",
+  "manifests/init.pp": "65fc9758fed911854557ca4db50b8206",
+  "metadata.json": "2b9df4cbc7a11ce9b5dc51a725510021",
+  "spec/classes/init_spec.rb": "2443c74ae91098a3f8b6e4376c001dba",
+  "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+  "templates/zabbix.proxy.conf.erb": "0bfcb96b942528fd613cd4c8e361a630",
+  "tests/init.pp": "8769c5054462a8db96a8ac959dc159e2"
+}
