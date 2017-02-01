@@ -12,6 +12,7 @@ class proxy::config inherits proxy {
     mode    => '0644',
     replace => true,
     content => template('proxy/zabbix.proxy.conf.erb'),
+    notify  => Service['zabbix-proxy'],
   }
   file { '/var/lib/sqlite/':
     ensure => directory,
