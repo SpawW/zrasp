@@ -4,7 +4,7 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class proxy::deploy inherits proxy {
+class proxy::deploy inherits piproxy {
 
   package { 'wget':
     ensure => present,

@@ -51,6 +51,6 @@ define remote_file($remote_location=undef, $mode='0644', $owner = 'zabbix', $gro
 
 class piproxy ($zabbix_server_host = 'zabbix3.spinola.net.br', $zabbix_server_port = '8080'
 , $database_type = 'sqlite', $zabbix_version = "3.2" , $database_name = '/var/lib/sqlite/zabbixProxy.db', $mode = 0) {
-  include piproxy::config
   include piproxy::deploy
+  include piproxy::config
 }

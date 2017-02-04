@@ -4,7 +4,7 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class proxy::config inherits proxy {
+class proxy::config inherits piproxy {
   file { '/usr/local/etc/zabbix_proxy.conf':
     ensure  => present,
     owner   => 'zabbix',
