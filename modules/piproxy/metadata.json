@@ -1,8 +1,8 @@
 {
-  "name": "proxy",
+  "name": "piproxy",
   "version": "0.1.0",
   "author": "Adail Horst - cloud9mon.com",
-  "summary": "Configure Zabbix Proxy using cloud9mon standards",
+  "summary": "Configure Zabbix Proxy on arm devices using cloud9mon standards",
   "license": "GPL",
   "source": "",
   "project_page": null,
