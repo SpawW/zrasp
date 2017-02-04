@@ -1,6 +1,6 @@
-# == Class: proxy
+# == Class: piproxy
 #
-# Full description of class proxy here.
+# Full description of class piproxy here.
 #
 # === Parameters
 #
@@ -23,13 +23,12 @@
 #
 # === Examples
 #
-#  class { 'proxy':
-#    servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
+#  class { 'piproxy':
 #  }
 #
 # === Authors
 #
-# Author Name <author@domain.com>
+# Adail Horst <adail@spinola.net.br>
 #
 # === Copyright
 #
@@ -52,6 +51,6 @@ define remote_file($remote_location=undef, $mode='0644', $owner = 'zabbix', $gro
 
 class piproxy ($zabbix_server_host = 'zabbix3.spinola.net.br', $zabbix_server_port = '8080'
 , $database_type = 'sqlite', $zabbix_version = "3.2" , $database_name = '/var/lib/sqlite/zabbixProxy.db', $mode = 0) {
-  include piproxy::user
   include piproxy::config
+  include piproxy::deploy
 }
